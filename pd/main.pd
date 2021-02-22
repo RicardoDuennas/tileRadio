@@ -21,6 +21,8 @@
 #X obj 421 55 +~ 15;
 #X obj 238 9 osc~ 0.54;
 #X obj 421 9 osc~ 0.21;
+#X obj 511 76 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
+#000000 #000000 0 1;
 #X connect 1 0 2 0;
 #X connect 2 0 12 0;
 #X connect 3 0 2 1;
@@ -45,3 +47,4 @@
 #X connect 19 0 10 0;
 #X connect 20 0 16 0;
 #X connect 21 0 18 0;
+#X connect 22 0 14 0;
